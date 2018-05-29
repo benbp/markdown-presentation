@@ -208,7 +208,16 @@ NOTE:
     - but at the same time, I'm left with an output that's well structured
     - I was able to share that in the wiki
 
+
+---
+
+*We should aim to make documentation as easy to write as possible*
+
+NOTE:  
+
 - Why important: we want to make writing documentation as easy as possible
+  - If you see docs with typos, easy fixes or confusing language, it's probably because writing small fixes to docs is a pain because of the process
+  - If you see large documentation formatting issues, it's probably because it takes too much effort to do that, and no one wants to
 
 ---
 
