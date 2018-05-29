@@ -45,7 +45,9 @@ Simple syntax for
 
 **styling** and `formatting` text  
 
-and *conversion* to ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)  
+and *conversion* to  
+
+ ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)  
 
 NOTE:  
 
@@ -58,7 +60,9 @@ Simple syntax for
 
 **styling** and `formatting` text 
 
-and *conversion* to ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)
+and *conversion* to  
+
+![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)
 ```
 
 ---
@@ -87,11 +91,11 @@ NOTE:
 
 ### Standards/implementations
 
-- Markdown.pl (original perl script)
-- github-flavored markdown (adds code formatting, etc.)
-- vsts markdown (adds checklists, work-item relative links)
-- CommonMark (adds controversy)
-- ...and many more (by design)
+- Markdown.pl *(original perl script)*
+- github-flavored markdown *(adds code formatting, etc.)*
+- vsts markdown *(adds checklists, work-item relative links)*
+- CommonMark *(adds controversy)*
+- ...and many more *(by design)*
 
 NOTE:  
 
@@ -142,7 +146,21 @@ Show conference talk notes
 
 NOTE:  
 
-Ok, this is really simple, why should I care?
+Ok, this is really simple, why should I care?  
+Nothing about markdown is really technically interesting  
+There's some deeper meaning here about:  
+- workflows
+- how the open source community works
+- how technologies succeed
+
+---
+
+*For any task, it is important to have lightweight and heavy-weight tools*
+
+
+*Tools have economies of scale*
+
+NOTE:  
 
 *Personal*
 - You should have tools that get out of your way
@@ -170,6 +188,16 @@ close to code
 - Much easier to put docs in source control. Match up with corresponding code commits. View history and take contributions
 - Different teams can make different organization and rendering decisions, but the source of truth is the same. Standardization!
 - Possibilities open up when you have common, lightweight, open source specifications
+
+---
+
+#### These slides written in Markdown (via gitpitch)
+
+NOTE:  
+
+I just wrote my talk, like I was writing an essay  
+Didn't have to fiddle around with formatting, etc.
+
 
 ---
 
