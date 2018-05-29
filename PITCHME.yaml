@@ -12,3 +12,4 @@ highlight : hybrid
 transition : none
 published : true
 #footnote : "GitPitch [ Sky ] Presentation Template"
+layout : center-left
