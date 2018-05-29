@@ -1,4 +1,4 @@
-# This talk
+## This talk
 
 1. a short explanation
 2. a brief history
@@ -29,10 +29,16 @@ I hope you'll get out of this:
 #### Lightweight Markup Language
 *machines can read it, humans can too*
 
-Simple syntax for **styling** and `formatting` text and *conversion* to ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)
+Simple syntax for  
+**styling** and `formatting`  
+text and *conversion* to ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)  
+
+
 
 ```
-Simple syntax for **styling** and `formatting` text and *conversion* to ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)
+Simple syntax for 
+**styling** and `formatting` text 
+and *conversion* to ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)
 ```
 
 NOTE:  
@@ -43,24 +49,56 @@ NOTE:
 
 ---
 
-# Why
+## Why
 
 *"The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible."*  
+
 *https://daringfireball.net/projects/markdown/*
 
 NOTE:  
 - Originally created in 2004 by John Gruber.
 - Goal of to be easily readable by humans, compared to writing raw html, etc.
 - "publishable as-is", you can publish a raw markdown doc
-- Has since grown into many implementations, variants, uses, especially in OSS ecosystem
-  - vsts, github pull requests, stack overflow comments, wiki
-  - text editors, note-taking software
-  - one of the most common formats in OSS eco for READMEs, docs
 
 ---
 
-# Markdown 2
+### Common uses
 
-## woo
+VSTS, Github Pull Request/Issue/Work Item descriptions  
+VSTS, Github Wikis  
+Stack Overflow Questions and Comments  
+READMEs and documentation for many open source projects  
+Software for writing
+
+*Standards/implementations*:  
+- Markdown.pl (original perl script)
+- github-flavored markdown (adds code formatting, etc.)
+- vsts markdown (adds checklists, work-item relative links)
+- CommonMark (adds controversy)
+
+---
+
+# DEMO
+
+NOTE:  
+- Headers (# and ------)
+- Bold, Italic
+- Lists
+- Inline code
+- Code, with syntax (not base spec)
+- Links
+- Images
+- Quotes
+- newlines/double space
+- HTML <b>test</b>
+- tables (but ugly)
+
+
+---
+
+### Examples
+
+FILL
+
 
 ---
