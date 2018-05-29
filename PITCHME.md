@@ -28,6 +28,7 @@ More like a lightning talk. If you already know markdown, stick with me for the 
 
 I hope you'll get out of this:
   - some ideas for how make your life slightly easier
+  - how to modify your workflow in support of standardization
 
 ---
 
@@ -205,6 +206,9 @@ NOTE:
   - "clean as you cook". You can get thoughts out quickly and not have to fiddle around with formatting too much.
   - as in my talk notes example, if I'm trying to transcribe a talk notes, don't have time to click on "header" etc.
     - but at the same time, I'm left with an output that's well structured
+    - I was able to share that in the wiki
+
+- Why important: we want to make writing documentation as easy as possible
 
 ---
 
@@ -215,7 +219,7 @@ NOTE:
 - Take our documentation for example
   - Within Azure we have lots of docs stored in proprietary programs, OneNote, sharepoint sites, word docs
   - This makes it really hard to make changes to how we do docs, or do engineering
-  - One thing we have wanted to do is standardize troubleshooting guides in one place, actually ends up being a lot of work
+  - One thing we have wanted to do is standardize troubleshooting guides in one place (sovereign), actually ends up being a lot of work
 
 - The open source community, I would argue, isn't really affected by this problem so much
   - even though it's much more decentralized
@@ -226,6 +230,16 @@ NOTE:
 
 ---
 
+### Use markdown more, please :)
+
+NOTE:  
+
+- To close, I want to encourage you to use it more
+- I think it will benefit you personally, in productivity
+- I think it will benefit the company, and the health of our documentation
+
+---
+
 #### These slides written in Markdown (via gitpitch)
 
 NOTE:  
@@ -233,9 +247,8 @@ NOTE:
 I just wrote my talk, like I was writing an essay  
 Didn't have to fiddle around with formatting, etc.
 
-
 ---
 
-### A few questions
+### A few questions?
 
 ---
