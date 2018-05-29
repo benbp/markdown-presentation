@@ -3,12 +3,10 @@
 1. a short explanation
 2. a brief history
 3. a quick demo
-4. a concise philosophical rant
+4. Some concise philosophy
 5. a few questions?
 
-
 Note:  
-
 
 Probably various level of understanding  
 Who here:
@@ -16,7 +14,7 @@ Who here:
   - uses markdown
   - fanatically uses markdown
 
-More like a lightning talk. If you already know markdown, stick with me for the rant
+More like a lightning talk. If you already know markdown, stick with me for the philosophy
 
 I hope you'll get out of this:
   - some ideas for how make your life slightly easier
@@ -120,21 +118,18 @@ NOTE:
 - HTML <b>test</b>
 - tables (but ugly)
 
+show wiki #examples
 
 ---
 
-### Usage online
-
-FILL
-
-also add a github link in here
+### Online Examples
 
 ---
 
 ### Software
 
-- Simplenote (for note-taking)
 - VSCode (for side by side viewing)
+- Simplenote (for note-taking)
 
 NOTE:  
 
@@ -142,52 +137,83 @@ Show conference talk notes
 
 ---
 
-### A concise philosophical rant
+### Some concise philosophy about...
+
+*Our work as craft*  
+
+*The open source ecosystem*
 
 NOTE:  
 
 Ok, this is really simple, why should I care?  
-Nothing about markdown is really technically interesting  
+Nothing about markdown is really technically interesting, why is this a talk
 There's some deeper meaning here about:  
-- workflows
+- improving how we do our work
 - how the open source community works
-- how technologies succeed
+- how technology ecosystems emerge
 
 ---
 
 *For any task, it is important to have lightweight and heavy-weight tools*
 
+NOTE:  
+
+- You should have tools that get out of your way
+- For any type of task, you should have simple tools, and heavy-weight tools. Neither is sufficient on its own
+  - For code, that's a text editor, like vscode, vim/emacs, vs. an IDE like visual studio
+    - editing config files, visual studio optimized for X
+  - For writing, that's notepad/text edit vs. word
+
+---
+
+![PowerDrill](https://www.publicdomainpictures.net/pictures/20000/velka/cordless-drill.jpg)
+![Screwdriver](https://cdn.pixabay.com/photo/2012/04/13/21/06/screwdriver-33634_1280.png)
+
+NOTE:  
+
+- A broader analogy, screwdriver vs power drill
+  - if you need to screw in one thing, you don't reach for your power drill
+  - there are more failure modes for a power drill (battery)
+
+---
 
 *Tools have economies of scale*
 
 NOTE:  
 
-*Personal*
-- You should have tools that get out of your way
-- For any type of task, you should have simple tools, and heavy-weight tools. Neither is sufficient on its own
-  - For code, that's a text editor, like vscode, vim/emacs, vs. an IDE like visual studio
-  - For writing, that's notepad/text edit vs. word
-  - A broader analogy, screwdriver vs power drill
-    - tools have economies of scale, time saved vs. time overhead 
+- The whole point I'm making is that tools have economies of scale
+    - overhead to use the tool vs. time saved by using it
       - (get drill, plug in, etc.), or startup time/CPU/MEM for visual studio/word
-    - if all you have for things is the equivalent of power drills, it can take forever to get things done quickly because of all the setup
-- Key is portability, where notepad or rich text falls short is in how easy it is to format as you go
-  - "clean as you cook"
+    - if all you have for things is the equivalent of power drills, it can take forever to get things done quickly because of:
+      - setup
+      - context switching
+      - failure modes
+- how does this relate? 
+  - when I'm trying to use writing as a way of thinking, I want as little in the way as possible for getting thoughts down on a page. 
+    - For me, I've found that a simple, blank screen and not ever having to stop typing works
+    - Others may be different, suggest you try
+
+- Easy to format as you go, easy to export to other views
+  - "clean as you cook". You can get thoughts out quickly and not have to fiddle around with formatting too much.
   - as in my talk notes example, if I'm trying to transcribe a talk notes, don't have time to click on "header" etc.
-  - but more fundamentally: when I'm trying to use writing as a way of thinking, I want as little in the way as possible for getting thoughts down on a page. 
-     - For me, I've found that a simple, blank screen and not ever having to stop typing works
-     - Others may be different, suggest you try
+    - but at the same time, I'm left with an output that's well structured
 
-*Public*
+---
 
-It is an excellent common denominator,   
-portable, separates data source from rendering  
-close to code
+*Technology thrives when there is standardization and simplicity*
 
-- Trying to migrate docs, TSGs out of sharepoint, onenote
-- Much easier to put docs in source control. Match up with corresponding code commits. View history and take contributions
-- Different teams can make different organization and rendering decisions, but the source of truth is the same. Standardization!
-- Possibilities open up when you have common, lightweight, open source specifications
+NOTE:  
+
+- Take our documentation for example
+  - Within Azure we have lots of docs stored in proprietary programs, OneNote, sharepoint sites, word docs
+  - This makes it really hard to make changes to how we do docs, or do engineering
+  - One thing we have wanted to do is standardize troubleshooting guides in one place, actually ends up being a lot of work
+
+- The open source community, I would argue, isn't really affected by this problem so much
+  - even though it's much more decentralized
+  - You have just as much variability in doc rendering/hosting: readthedocs, github wiki, etc.
+  - But most of them are built on top of common formats like markdown or restructured text
+  - many different needs can be served, without creating as much of a fragmentation problem
 
 ---
 
