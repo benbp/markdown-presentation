@@ -216,6 +216,8 @@ NOTE:
 
 NOTE:  
 
+That's for personal stuff, but what does markdown do for the broader tech ecosystem?
+
 - Take our documentation for example
   - Within Azure we have lots of docs stored in proprietary programs, OneNote, sharepoint sites, word docs
   - This makes it really hard to make changes to how we do docs, or do engineering
