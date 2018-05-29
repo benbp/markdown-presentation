@@ -1,3 +1,19 @@
+## Markdown (.md)
+
+#### Or, what are all these .md files supposed to be?
+
+NOTE:  
+
+so this talk is about markdown
+
+Probably various level of understanding  
+Who here:
+  - knows about markdown
+  - uses markdown
+  - fanatically uses markdown
+
+---
+
 ### This talk
 
 1. a short explanation
@@ -8,22 +24,10 @@
 
 Note:  
 
-Probably various level of understanding  
-Who here:
-  - knows about markdown
-  - uses markdown
-  - fanatically uses markdown
-
 More like a lightning talk. If you already know markdown, stick with me for the philosophy
 
 I hope you'll get out of this:
   - some ideas for how make your life slightly easier
-
----
-
-## Markdown (.md)
-
-#### Or, what are all these .md files supposed to be?
 
 ---
 
@@ -62,6 +66,10 @@ and *conversion* to
 
 ![HTML](https://upload.wikimedia.org/wikipedia/commons/1/12/Old_HTML_Logo.svg)
 ```
+
+NOTE:  
+
+We can take a look at some raw markdown, pretty simple
 
 ---
 
@@ -130,6 +138,7 @@ show wiki #examples
 
 - VSCode (for side by side viewing)
 - Simplenote (for note-taking)
+- Many more...
 
 NOTE:  
 
@@ -137,7 +146,7 @@ Show conference talk notes
 
 ---
 
-### Some concise philosophy about...
+### Some concise philosophy
 
 *Our work as craft*  
 
@@ -166,8 +175,7 @@ NOTE:
 
 ---
 
-![PowerDrill](https://www.publicdomainpictures.net/pictures/20000/velka/cordless-drill.jpg)
-![Screwdriver](https://cdn.pixabay.com/photo/2012/04/13/21/06/screwdriver-33634_1280.png)
+![tools](https://raw.githubusercontent.com/benbp/markdown-presentation/master/screwdrivers.jpg)
 
 NOTE:  
 
@@ -214,6 +222,7 @@ NOTE:
   - You have just as much variability in doc rendering/hosting: readthedocs, github wiki, etc.
   - But most of them are built on top of common formats like markdown or restructured text
   - many different needs can be served, without creating as much of a fragmentation problem
+    - the vscode docs we looked at, if they wanted to host somewhere else, just run a script
 
 ---
 
